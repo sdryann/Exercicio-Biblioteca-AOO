@@ -27,6 +27,14 @@ public class Livro {
 	public void setAutor(Autor autor) {
 		this.autor = autor;
 	}
+
+	public Pessoa getEmprestadoPor() {
+		return emprestadoPor;
+	}
+
+	public void setEmprestadoPor(Pessoa emprestadoPor) {
+		this.emprestadoPor = emprestadoPor;
+	}
 	
 	
 	
