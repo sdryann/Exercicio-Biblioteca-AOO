@@ -1,6 +1,5 @@
 package application;
-import java.util.Locale;
-import java.util.Scanner;
+
 import entities.Autor;
 import entities.Professor;
 import entities.Aluno;

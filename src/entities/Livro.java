@@ -1,5 +1,4 @@
 package entities;
-import entities.Autor;
 
 public class Livro {
 
