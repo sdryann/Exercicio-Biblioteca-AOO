@@ -35,6 +35,11 @@ public class Livro {
 	public void setEmprestadoPor(Pessoa emprestadoPor) {
 		this.emprestadoPor = emprestadoPor;
 	}
+
+	
+	public String toString() {
+		return "Livro [" + nome + "]\n Autor: " + autor.nome + "\n Nacionalidade: "+ autor.nacional +"\n Emprestado por: " + emprestadoPor.nome + "\n";
+	}
 	
 	
 	
