@@ -13,12 +13,12 @@ public class Program {
 	Autor autor2 = new Autor("Stephen Covey", "Estados Unidos");
 	
 	Aluno aluno1 = new Aluno("Rian Sousa", 420);
-	Professor prof1 = new Professor("Efraín Andres", 690);
+	Professor prof1 = new Professor("Efrain Andres", 690);
 	
-	Livro livro1 = new Livro("Uma breve história do tempo", autor1);
-	livro1.setEmprestadoPor(autor1);
+	Livro livro1 = new Livro("Uma breve historia do tempo", autor1);
+	livro1.setEmprestadoPor(aluno1);
 
-	Livro livro2 = new Livro("Os 7 hábitos das pessoas altamente eficazes", autor2);
+	Livro livro2 = new Livro("Os 7 habitos das pessoas altamente eficazes", autor2);
 	livro2.setEmprestadoPor(prof1);
 	
 	System.out.println(livro1.toString());

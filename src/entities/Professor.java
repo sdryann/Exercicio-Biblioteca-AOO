@@ -4,8 +4,8 @@ public class Professor extends Pessoa {
 
 	int codigo;
 	
-	public Professor(String name, int codigo){
-		super(name);
+	public Professor(String nome, int codigo){
+		super(nome);
 		this.codigo = codigo;
 	}
 
